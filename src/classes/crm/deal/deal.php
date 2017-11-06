@@ -1,7 +1,5 @@
 <?php
-
 namespace Bitrix24\CRM;
-
 use Bitrix24\Bitrix24Entity;
 
 class Deal extends Bitrix24Entity
@@ -112,6 +110,4 @@ class Deal extends Bitrix24Entity
         );
         return $fullResult;
     }
-
-
 }
